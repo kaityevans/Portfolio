@@ -290,6 +290,15 @@ p {
 
 /* Large and up (Desktops) */
 @media (min-width: 992px) {
+  header nav {
+    width: 900px;
+    /* padding-left: 150px; */
+    padding-bottom: 5px;
+  }
+  header nav ul {
+    /* flex-flow: row; */
+    width: 900px;
+  }
   div {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -298,6 +307,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
   img {
     padding-left: 20px;
