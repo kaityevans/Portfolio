@@ -124,34 +124,42 @@ h2 {
 }
 
 .boxes {
-  padding-left: 10%;
+  justify-items: center;
+  align-content: center;
+  /* padding-left: 10%; */
 }
 
 .box1,
 .box2,
 .box3 {
   display: flex;
-  justify-content: space-evenly;
+  justify-items: space-between;
+  align-self: space-around;
   flex-flow: column;
-  /* padding: 50px; */
+  align-self: center;
+  margin: 50px;
   /* padding-left: 150px; */
   padding-bottom: 500px;
+  /* border: 2px solid black; */
 }
 
 .box1 img,
 .box2 img,
 .box3 img {
-  width: 150%;
-  padding-left: 10%;
+  width: 75%;
+  padding-left: 0%;
+  padding: 0%;
+  margin: 10%;
+  border: 1px solid black;
 }
 
 main div img {
   width: 10%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding-top: 30px;
-  padding-bottom: 50px;
+  align-self: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 p {
